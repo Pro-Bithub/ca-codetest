@@ -12,10 +12,10 @@ export const routes: Routes = [
         component: MainLayoutComponent,
         children: [
             {
-                path: '', redirectTo: 'sites', pathMatch: 'full'
+                path: '', redirectTo: 'home', pathMatch: 'full'
             },
             {
-                path: 'sites',
+                path: 'home',
                 loadChildren: 'app/+home/home.module#HomeModule'
             },
         ]
