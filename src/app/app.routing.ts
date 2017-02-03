@@ -12,7 +12,7 @@ export const routes: Routes = [
         component: MainLayoutComponent,
         children: [
             {
-                path: '', redirectTo: 'home', pathMatch: 'full'
+                path: '', redirectTo: 'calendar', pathMatch: 'full'
             },
             {
                 path: 'home',
