@@ -24,7 +24,7 @@ export class AppointmentsService {
 
   addAppointment(appointment) {
     appointment.id = this.generateId();
-    this.store.appointments.push(event);
+    this.store.appointments.push(appointment);
     this.subject.next(this.store);
   }
 
